@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/adicionarVeiculo.css">
+    <title>Adicionar Veiculo</title>
+</head>
+<body>
+    <header class="header__princ">
+        <div class="container">
+            <nav class="flex">
+                <a href="#"><img class="logo" src="../resources/img/logo2.png" alt=""></a>                
+            </nav>
+        </div>
+    </header>
+    <a href="../paginas/minhaConta.html" class="voltar">Voltar</a>
+
+    <main>
+        <div class="adicionarVeiculo">
+            
+            <img src="../resources/img/mulher-viajando.avif" alt="mulher viajando">
+            <form action="adicionar" method="get">
+                
+
+                <fieldset>
+                    <h1>Informações do veículo</h1>
+
+                    <div class="placa">
+                        <label for="idPlaca">Placa do veículo: </label>
+                        <input type="text" name="placa" id="idPlaca" autofocus>
+                    </div>
+
+                    <div class="semPlaca">
+                        <input type="checkbox" name="semPlaca" id="idSemPlaca">
+                        <label for="idSemPlaca">Não possuo a placa do veículo</label>
+                    </div>
+
+                    <div class="marca">
+                        <label for="idMarca">Marca do veículo: </label>
+                        <input type="text" name="marca" id="idMarca" required>
+                    </div>
+
+                    <div class="modelo">
+                        <label for="idModelo">Modelo do veículo: </label>
+                        <input type="text" name="marca" id="idModelo" required>
+                    </div>
+
+                    <div class="motor">
+                        <label for="idMotor">Tipo do motor: </label>
+                        <input type="text" name="tipo" id="idMotor" required>
+                    </div>
+
+                    <div class="transmissao">
+                        <label for="idTransmissao">Transmissão: </label>
+                        <input type="text" name="transmissao" id="idTransmissao" required>
+                    </div>
+
+                    <div class="cor">
+                        <label for="idCor">Cor: </label>
+                        <input type="text" name="cor" id="idCor" required>
+                    </div>
+
+                    <div class="quilometragem">
+                        <label for="idQuilometragem">Qulometragem atual: </label>
+                        <input type="number" name="quilometragem" id="idQuilometragem" min="0" step="0.01" required>
+                    </div>
+
+                    <div class="manutencao">
+                        <label for="idManutencao">Manutenção recente: </label>
+                        <input type="text" name="manutencao" id="idManutencao">
+                    </div>
+
+                    <textarea name="obs" id="idObs" cols="30" rows="10"></textarea>
+
+                    <div class="termos">
+                        <input type="checkbox" name="termosDeUso" id="idTermos" required>
+                        <label for="idTermos">Eu concordo com os Termos de Uso</label>
+                    </div>
+
+                </fieldset>
+
+                <input type="submit" class="botaoCadastrar" value="Cadastrar">
+                <input type="reset" class="botaoLimpar" value="Limpar">
+                
+                
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="institucionalFooter">
+            <h2>Institucional</h2>
+            <a href="#">A Porto</a>
+            <a href="#">Marca Porto</a>
+            <a href="#">Instituto Porto</a>
+            <a href="#">Parceiros</a>
+            <a href="#">Teatro Porto</a>
+            <a href="#">Noticia e Imprensa</a>
+            <a href="#">Patrocinios</a>
+            <a href="#">Privacidade</a>
+        </div>
+        <div class="blogPortoFooter">
+            <h2>Blog Porto</h2>
+            <a href="#">Casa</a>
+            <a href="#">Mobilidade</a>
+            <a href="#">Finanças</a>
+            <a href="#">Vida e Saude</a>
+            <a href="#">Viagem</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Negócios</a>
+            <a href="#">Sobre a Porto</a>
+            <a href="#">Procon</a>
+        </div>
+        <div class="portoEVoceFooter">
+            <h2>Porto e Você</h2>
+            <a href="#">Portal do Cliente</a>
+            <a href="#">Encontre um corretor</a>
+        </div>
+    
+    </footer>
+</body>
+</html>
