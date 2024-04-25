@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+
+main{
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    color: #019ff9;
+}
+p{
+   max-width: 75%; 
+   margin: auto;
+
+}
+
+.fotoNomeRM{
+    
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+   
+}
+
+.fotoNomeRM section{
+    min-width: 25%;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.fotoNomeRM img{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    
+}
+
+.conteudo{
+    
+    text-align: center;
+    margin: auto;
+    min-width: 55%;
+}
+
+.conteudo section{
+    display: flex;
+    text-align: center;
+    
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted black;
+}
+

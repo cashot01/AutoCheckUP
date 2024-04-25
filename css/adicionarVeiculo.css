@@ -1,0 +1,58 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.voltar{
+    color: black;
+    text-decoration: none;
+}
+
+.adicionarVeiculo{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 75%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.adicionarVeiculo img{
+    overflow: hidden;
+}
+
+form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+.placa, .marca{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    max-width: 60%;
+}
+
+.botaoCadastrar, .botaoLimpar{
+    max-width: 75%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
