@@ -285,13 +285,14 @@ footer{
     padding: 10px;
 }
 
-footer h2 , a {
+footer h2 , li {
     color: white;
     font-size: 12.5px;
 }
 
-footer a{
+footer li{
     text-decoration: none;
+    list-style-type: none;
     margin: 5px;
     font-weight: 500;
 }
