@@ -1,0 +1,90 @@
+/* Extra Large Devices (Desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    /* Ajustes específicos para dispositivos acima de 1200px */
+}
+
+/* Large Devices (Desktops, 992px and up) */
+@media (max-width: 992px) {
+    .header__princ nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner2, .banner5 {
+        flex-direction: column;
+    }
+
+    .banner2 img, .banner5 img {
+        max-width: 100%;
+    }
+
+    .banner2 .conteudo, .banner5 .conteudoParte5 {
+        padding: 20px;
+    }
+
+    .conteudoParte6, .conteudoParte7 {
+        flex-direction: column;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (max-width: 768px) {
+    .header__princ .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__princ .botao_area_cliente {
+        margin-top: 10px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    .conteudoParte6 article, .conteudoParte7 .coluna1Duvida, .conteudoParte7 .coluna2Duvida {
+        flex: 1;
+        max-width: 100%;
+    }
+}
+
+/* Small Devices (Tablets and Large Phones, 576px and up) */
+@media (max-width: 576px) {
+    .header__princ .container {
+        padding: 10px;
+    }
+
+    .header__princ nav ul {
+        display: none;
+    }
+
+    .header__princ .itens {
+        margin-top: 10px;
+    }
+
+    .banner{
+        padding: 10px;
+    }
+
+    .banner a {
+        padding: 8px 15px;
+    }
+
+    .banner4, .banner6{
+        padding: 10px;
+    }
+
+    article h2 {
+        font-size: 1.2rem;
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+
