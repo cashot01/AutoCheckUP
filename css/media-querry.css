@@ -35,8 +35,11 @@
     }
 
     .header__princ .botao_area_cliente {
-        margin-top: 10px;
+        margin: 10px;
+        
     }
+
+    
 
     section {
         padding: 20px 10px;
@@ -51,15 +54,51 @@
 /* Small Devices (Tablets and Large Phones, 576px and up) */
 @media (max-width: 576px) {
     .header__princ .container {
-        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .header__princ nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .header__princ nav ul {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .header__princ .itens {
         margin-top: 10px;
+        width: 100%;
+        size: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__princ .botao_area_cliente {
+        margin: 3px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__princ .botao_area_cliente a {
+        max-width: 70%;
+        width: auto;
+    }
+
+    .header__princ a img {
+        max-width: 220px;
+        height: auto;
     }
 
     .banner{

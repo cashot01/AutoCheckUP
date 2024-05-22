@@ -42,8 +42,8 @@ img .logo{
 
 .header__princ{
     width: 100%;
-    padding:20px ;
-    position: fixed;
+    padding: 15px;
+    /* position: fixed; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     top:0;
     left:0;
@@ -61,6 +61,7 @@ img .logo{
 }
 
 .itens ul li{
+    
     /* display: inline-block; */
     /* flex-grow: 1; */
     margin:0px 10px;
