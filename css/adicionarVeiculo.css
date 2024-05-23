@@ -7,8 +7,13 @@
 }
 
 .voltar{
-    color: black;
+    /* color: black; */
     text-decoration: none;
+}
+
+.voltar:hover{
+    text-decoration: underline;
+    color: darkblue;
 }
 
 .adicionarVeiculo{
