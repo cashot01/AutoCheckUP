@@ -1,20 +1,12 @@
 
 
 .minhaConta{
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border: 2px solid lightskyblue;
     border-radius: 25px;
 }
-.minhaConta a{
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
 
-.minhaConta a:hover{
-    background-color: darkblue;
-}
 
 .voltar{
     margin: 10px;
@@ -32,11 +24,21 @@ ul{
 li{
     color: black;
 }
+p{
+    margin: 10px;
+}
 
 .botaoAdicionarVeiculo{
     color: black;
     text-decoration: none;
     font-size: 20px;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+
+.botaoAdicionarVeiculo:hover{
+    background-color: lightblue;
 }
