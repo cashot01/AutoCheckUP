@@ -1,6 +1,4 @@
-
-
-.minhaConta{
+.minhaConta {
     padding: 20px;
     margin: 10px;
     border: 2px solid lightskyblue;
@@ -8,38 +6,87 @@
     box-shadow: 0 4px 8px lightblue;
 }
 
-
-.voltar{
+.voltar {
     margin: 10px;
     text-decoration: none;
 }
 
-.voltar:hover{
+.voltar:hover {
     text-decoration: underline;
 }
-ul{
+
+ul {
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.2rem; 
 }
 
-li{
+li {
     color: black;
 }
-p{
+
+p {
     margin: 10px;
 }
 
-.botaoAdicionarVeiculo{
+.botaoAdicionarVeiculo {
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    /* margin: 10px; */
-    
+    font-size: 18px; 
     padding: 5px;
     border: 1px solid darkblue;
     border-radius: 10px;
 }
 
-.botaoAdicionarVeiculo:hover{
+.botaoAdicionarVeiculo:hover {
     background-color: lightblue;
+}
+
+
+@media (max-width: 1200px) {
+    .minhaConta {
+        padding: 15px;
+        margin: 8px;
+    }
+    ul {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .minhaConta {
+        padding: 10px;
+        margin: 6px;
+    }
+    ul {
+        font-size: 1.2rem;
+    }
+    .botaoAdicionarVeiculo {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .minhaConta {
+        padding: 8px;
+        margin: 5px;
+    }
+    ul {
+        font-size: 1.1rem;
+    }
+    .botaoAdicionarVeiculo {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .minhaConta {
+        padding: 5px;
+        margin: 3px;
+    }
+    ul {
+        font-size: 1rem;
+    }
+    .botaoAdicionarVeiculo {
+        font-size: 12px;
+    }
 }
