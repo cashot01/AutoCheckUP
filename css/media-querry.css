@@ -47,13 +47,19 @@
 /* Medium Devices (Tablets, 768px and up) */
 @media (max-width: 768px) {
     .header__princ .container {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        padding: 10px;
     }
 
     .header__princ .botao_area_cliente {
         margin: 10px;
         
+    }
+
+    .header__princ nav{
+        align-items: center;
     }
 
     
