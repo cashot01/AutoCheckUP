@@ -56,3 +56,51 @@ fieldset{
     margin: 5px;
 }
 
+@media (max-width: 1200px) {
+    .adicionarVeiculo {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .adicionarVeiculo {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .adicionarVeiculo img {
+        width: 100%;
+        max-width: none;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    fieldset {
+        padding: 5px;
+    }
+
+    .campo {
+        margin: 5px 0;
+    }
+
+    .botaoCadastrar, .botaoLimpar {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .adicionarVeiculo {
+        border: none;
+        border-radius: 0;
+    }
+
+    fieldset {
+        padding: 5px;
+    }
+}
+

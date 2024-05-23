@@ -6,88 +6,88 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/adicionarVeiculo.css">
     <link rel="stylesheet" href="../css/media-querry.css">
-    <title>Adicionar Veiculo</title>
+    <title>Adicionar Veículo</title>
 </head>
 <body>
     <header class="header__princ">
         <div class="container">
             <nav class="flex">
-                <a href="#"><img class="logo" src="../resources/img/logo2.png" alt=""></a>                
+                <a href="#"><img class="logo" src="../resources/img/logo2.png" alt="Logo"></a>                
             </nav>
         </div>
     </header>
     <a href="../paginas/minhaConta.html" class="voltar">Voltar</a>
 
     <main>
-        <div class="adicionarVeiculo">
-            
-            <img src="../resources/img/mulher-viajando.png" alt="mulher viajando">
+        <section class="adicionarVeiculo">
+            <img src="../resources/img/mulher-viajando.png" alt="Mulher viajando">
             <form action="adicionar" method="get">
-                
-
                 <fieldset>
-                    <h1>Informações do veículo</h1>
+                    <legend>Informações do veículo</legend>
 
-                    <div class="placa">
+                    <div class="campo">
                         <label for="idPlaca">Placa do veículo: </label>
                         <input type="text" name="placa" id="idPlaca" autofocus>
                     </div>
 
-                    <div class="semPlaca">
+                    <div class="campo">
                         <input type="checkbox" name="semPlaca" id="idSemPlaca">
                         <label for="idSemPlaca">Não possuo a placa do veículo</label>
                     </div>
 
-                    <div class="marca">
+                    <div class="campo">
                         <label for="idMarca">Marca do veículo: </label>
                         <input type="text" name="marca" id="idMarca" required>
                     </div>
 
-                    <div class="modelo">
+                    <div class="campo">
                         <label for="idModelo">Modelo do veículo: </label>
-                        <input type="text" name="marca" id="idModelo" required>
+                        <input type="text" name="modelo" id="idModelo" required>
                     </div>
 
-                    <div class="motor">
+                    <div class="campo">
                         <label for="idMotor">Tipo do motor: </label>
                         <input type="text" name="tipo" id="idMotor" required>
                     </div>
 
-                    <div class="transmissao">
+                    <div class="campo">
                         <label for="idTransmissao">Transmissão: </label>
                         <input type="text" name="transmissao" id="idTransmissao" required>
                     </div>
 
-                    <div class="cor">
+                    <div class="campo">
                         <label for="idCor">Cor: </label>
                         <input type="text" name="cor" id="idCor" required>
                     </div>
 
-                    <div class="quilometragem">
-                        <label for="idQuilometragem">Qulometragem atual: </label>
+                    <div class="campo">
+                        <label for="idQuilometragem">Quilometragem atual: </label>
                         <input type="number" name="quilometragem" id="idQuilometragem" min="0" step="0.01" required>
                     </div>
 
-                    <div class="manutencao">
+                    <div class="campo">
                         <label for="idManutencao">Manutenção recente: </label>
                         <input type="text" name="manutencao" id="idManutencao">
                     </div>
 
-                    <textarea name="obs" id="idObs" cols="30" rows="10"></textarea>
+                    <div class="campo">
+                        <label for="idObs">Observações:</label>
+                        <textarea name="obs" id="idObs" cols="30" rows="10"></textarea>
+                    </div>
 
-                    <div class="termos">
+                    <div class="campo">
                         <input type="checkbox" name="termosDeUso" id="idTermos" required>
                         <label for="idTermos">Eu concordo com os Termos de Uso</label>
                     </div>
 
                 </fieldset>
 
-                <input type="submit" class="botaoCadastrar" value="Cadastrar">
-                <input type="reset" class="botaoLimpar" value="Limpar">
-                
-                
+                <div class="botoes">
+                    <input type="submit" class="botaoCadastrar" value="Cadastrar">
+                    <input type="reset" class="botaoLimpar" value="Limpar">
+                </div>
             </form>
-        </div>
+        </section>
     </main>
     
     <footer>
