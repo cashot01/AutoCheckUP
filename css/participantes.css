@@ -33,13 +33,13 @@ header nav ul li a {
     color: #333;
 }
 
-header .botao_area_cliente a {
+/* header .botao_area_cliente a {
     background-color: #019ff9;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-}
+} */
 
 main {
     padding: 20px;
